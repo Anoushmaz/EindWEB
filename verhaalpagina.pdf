@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtspagina</title>
+    <link rel="stylesheet" href="transavia.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+
+<body>
+
+<!--Dit is de navigatie bovenaan het scherm-->
+    <nav>
+        <ul>
+            <li>
+                <a href="overzichtspagina.html"><img src="helelogo.png" alt="homepage" class="navimg"><p>Stories</p></a>
+            </li>
+            <li><a href="aanmelden.html"><img src="profiel.png" alt="profiel" class="profiel"></a></li>
+        </ul>
+    </nav>
+
+

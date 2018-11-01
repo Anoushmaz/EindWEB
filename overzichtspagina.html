@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtspagina</title>
+    <link rel="stylesheet" href="transavia.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+
+<body id="overzichtspagina">
+
+    <!--Dit is de navigatie bovenaan het scherm-->
+    <nav>
+        <ul>
+            <li>
+                <a href="overzichtspagina.html"><img src="helelogo.png" alt="homepage" class="navimg">
+                    <p>Stories</p>
+                </a>
+            </li>
+            <li>
+                <a href="aanmelden.html"><img src="profiel.png" alt="profiel" class="profiel"></a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <!--Dit is de overzichtspagina, hier kun je zoeken naar verhalen-->
+<main>
+
+    <form>
+        <h1>Wat wil je lezen?</h1>
+        <input type="text" placeholder="Zoek een verhaal" />
+        <a href="" class="button">Zoeken</a>
+    </form>
+
+
+    <!--De button naar de filters, zie js/css voor de interactie-->
+    <button>Filters</button>
+    <div>
+        <form>
+            <legend><b>Ik zoek een... </b></legend>
+            <label><input type="checkbox"/> vrolijk verhaal <i>(53)</i> </label>
+            <label><input type="checkbox"/> hectisch verhaal <i> (47)</i> </label>
+            <label><input type="checkbox"/> somber verhaal <i>(11)</i></label>
+            <label><input type="checkbox"/> verhaal met BN'ers <i>(8)</i></label>
+            <label><input type="checkbox"/> verhaal voor kinderen <i>(68)</i></label>
+            <label><input type="checkbox"/> poetisch verhaal <i>(9)</i></label>
+
+
+            <legend><b>tijdsduur</b> </legend>
+            <label>kort/lang<input type="range" name="sorteren"/></label>
+
+            <a href="" class="toepassenbutton">Toepassen</a>
+        </form>
+    </div>
+  </main>
+
+    <!--Hier kun je selecteren op wat je de verhalen wilt sorteren-->
+    <h2>sorteer het verhaal op</h2>
+
+    <select>
+    <option value="Meest gelezen">Meest gelezen</option>
+       <option value="Meest gelezen">Populair</option>
+       <option value="Meest gelezen">Random</option>
+        <option value="Meest gelezen">Nieuw</option>
+    </select>
+    <!--De opsomming van de verhalen, met de like en download buttons-->
+    <section>
+        <article>
+            <a href="verhaalpagina.html" class="artikel">
+                <img src="gefrustreerdverhaal.png" alt="homepage" width="80px">
+
+                <h3>Gefrustreerd</h3>
+
+            </a>
+            <button><img src=hartje.png alt="hartje"></button>
+            <button class="downloadbutton"><img src=downloaden.png alt="downloaden"></button>
+
+
+            <details class="eerstedetails">
+                <img src="tijdsduur.png" alt="tijdsduur">
+                <img src="starrate5.png" alt="rating">
+            </details>
+
+        </article>
+
+
+        <article>
+            <a href="" class="artikel">
+                <img src="notitieverhaal.png" alt="homepage" width="80px">
+                <h3>Notitie</h3>
+            </a>
+            <button><img src=hartje.png alt="hartje"></button>
+            <button><img src=downloaden.png alt="downloaden"></button>
+
+            <details>
+                <img src="tijdsduur2min.png" alt="tijdsduur">
+                <img src="starrate5.png" alt="rating">
+            </details>
+
+        </article>
+
+        <article>
+            <a href="" class="artikel">
+                <img src="johancruijfverhaal.png" alt="homepage" width="80px">
+                <h3>Johan Cruijf</h3>
+
+            </a>
+            <button><img src=hartje.png alt="hartje"></button>
+            <button><img src=downloaden.png alt="downloaden"></button>
+
+            <details>
+                <img src="tijdsduur.png" alt="tijdsduur">
+                <img src="starrate5.png" alt="rating">
+            </details>
+        </article>
+
+        <article>
+            <a href="" class="artikel">
+                <img src="receptverhaal.png" alt="homepage" width="80px">
+                <h3>Recept</h3>
+            </a>
+            <button><img src=hartje.png alt="hartje"></button>
+            <button><img src=downloaden.png alt="downloaden"></button>
+            <details>
+                <img src="tijdsduur.png" alt="tijdsduur">
+                <img src="starrate5.png" alt="rating">
+            </details>
+
+        </article>
+
+        <article>
+            <a href="" class="artikel">
+                <img src="droomverhaal.png" alt="homepage" width="80px">
+                <h3>Droom</h3>
+            </a>
+            <button><img src=hartje.png alt="hartje"></button>
+            <button><img src=downloaden.png alt="downloaden"></button>
+            <details>
+<img src="tijdsduur.png" alt="tijdsduur">
+<img src="starrate5.png" alt="rating">
+</details>
+
+            </article>
+
+        <article>
+            <a href="" class="artikel">
+                <img src="iphoneverhaal.png" alt="homepage" width="80px">
+                <h3>iPhone</h3>
+            </a>
+            <button><img src=hartje.png alt="hartje"></button>
+            <button><img src=downloaden.png alt="downloaden"></button>
+            <details>
+<img src="tijdsduur.png" alt="tijdsduur">
+<img src="starrate5.png" alt="rating">
+</details>
+            </article>
+
+    </section>
+
+
+</body>
+
+
+
+<footer>
+    <p>Made by: Anoush Mazloumian</p>
+    <p>Contact information: <a href="mailto:someone@example.com">mazloua@hva.nl</a>.</p>
+</footer>
+<script src="transavia.js"></script>
+</html>
+
+
+
+
+
+
+
+

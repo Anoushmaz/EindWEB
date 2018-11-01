@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>aanmeldpagina</title>
+    <link rel="stylesheet" href="transavia.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<!--Dit is de aanmeldpagina, hier kun je inloggen, aanmelden of uitloggen-->
+
+
+<body>
+<!--Elke pagina, dus niet alleen deze, begint met de navigatie bovenaan het scherm-->
+    <nav>
+        <ul>
+            <li>
+                <a href="overzichtspagina.html"><img src="helelogo.png" alt="homepage" class="navimg"><p>Stories</p></a>
+            </li>
+            <li><a href="aanmelden.html"><img src="profiel.png" alt="profiel" class="profiel"></a></li>
+        </ul>
+    </nav>
+
+
+<!--Vanaf hier word de pagina identiek-->
+<body id="inlogpagina">
+
+
+
+<!--Dit word-->
+
+
+
+<form>
+       <h3>Log in om je verhalen te zien</h3>
+             <p><i>Bekijk je opgeslagen en gedownloade verhalen als je ingelogd bent</i></p>
+        Emailadres<br>
+        <input type="email" name="emailadres"><br>
+        Wachtwoord <br>
+        <input type="password" name="wachtwoord"><br>
+
+        <p><a href="">wachtwoord vergeten?</a><br></p>
+
+
+
+       <a href="overzichtspagina.html" class="button">Inloggen</a>
+</form>
+
+
+
+<br><br>
+
+
+<form>
+       <h3>Nog geen lid? Maak een account aan!</h3>
+       <p><i>Met een account kun je verhalen downloaden en opslaan</i></p>
+        <legend>Persoonlijke informatie</legend>
+        <label>Voornaam<br>
+        <input type="text" name="voornaam" min="1" max="10" required></label>
+
+        <br>
+
+        <label>Achternaam <br>
+        <input type="text" name="achternaam" min="1" max="15" required></label>
+
+        <br> <br>
+
+         <label> Geboorte datum <br>
+        <input type="date" name="geboortedatum" required></label>
+
+        <br>
+
+        <label>E-mail <br>
+        <input type="email" name="emailadres" placeholder="gebruiker@domein.nl"  required></label>
+
+        <br>
+
+        <label>Telefoonnummer <br>
+        <input type="tel" name="telefoon" minLength="9" maxlength="11" placeholder="06-12345678"required></label>
+
+        <br>
+
+
+
+        <legend>Jouw account</legend>
+        <label>Kies een gebruikersnaam<br>
+        <input type="text" name="gebruikersnaam" required></label>
+
+        <br>
+
+        <label>Kies een wachtwoord<br>
+        <input type="password" name="wachtwoord" placeholder="minimaal 6 karakters" minlength="6" required></label>
+
+        <br>
+
+
+
+<input type="submit">
+</form>
+
+
+
+</body>
+
+</html>
